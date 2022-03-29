@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Setup
 
-- git clone https://github.com/vickymarz/webpack-template.git
+- git clone https://github.com/victoradesamuel/webpack-template.git
 - cd todo-list/
 - Setup webpack configuration to bundle up your javascript modules. Follow the instructions from the [getting started guide](https://webpack.js.org/guides/getting-started/#basic-setup) to set up the basics
 
