@@ -1,1 +1,1 @@
-# wdbpack-template
+# webpack-template
