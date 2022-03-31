@@ -1,58 +1,30 @@
-# webpack-template
-Webpack is a module bundler. Its main purpose is to bundle javascript files for usage in a browser.
-This repository is a standard template with full webpack configuration that can be used in any javascript project
+# To-do-list
+A to-do list is a app that allow the user to organize the user's day and allow him to add a task, to remove it, to edit it and then to mark it as complet if it is
 
-## Built With
+# Build with
 
-- HTML5, Javascript
-- CSS3
-- Webpack
+HTML, CSS, Javascript, Webpack
 
-## Live Demo
+# Live Demo
 
-[Live Demo Link](https://victoradesamuel.github.io/webpack-template/)
+[link to my to-do list]()
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-## Prerequisites
+```
+ git clone 
+ https://github.com/To-do-list/
+ 
 
-- Have a good knowledge on how to parse UI designs
-- Have VSCode or other text editor installed. [Link to download VSCode](https://code.visualstudio.com/download)
-- Install node package. [Link to download node](https://nodejs.org/en/download/)
-- Have git installed.[Link to download git](https://git-scm.com/downloads)
-- Create a github repository.
+```
 
-## Setup
+👤 **Author2**
 
-- git clone https://github.com/victoradesamuel/webpack-template.git
-- cd todo-list/
-- Setup webpack configuration to bundle up your javascript modules. Follow the instructions from the [getting started guide](https://webpack.js.org/guides/getting-started/#basic-setup) to set up the basics
-
-## Run tests
-
-For tracking linters errors locally, you need to follow these steps:
-
-- For tracking linter errors in HTML file run:
-  `npx hint .`
-- For tracking linter errors in CSS file run:
-  `npx stylelint "**/*.{css,scss}"`
-- For tracking linter errors in Javascript file run:
-  `npx eslint .`
-
-## Deployment
-
-- Use GitHub pages to deploy website
-- For more information about publishing sources, see [About github pages](https://pages.github.com/)
-
-## Author
-
-👤 **Ade-Samuel Victor Ayomide**
-
-- GitHub: [@victoradesamuel](https://github.com/victoradesamuel)
-
-- LinkedIn: [Victor Ade-Saamuel](https://www.linkedin.com/in/sonofzion)
+- GitHub: [@YannickZahinda](https://github.com/YannickZahinda)
+- Twitter: [@ZahindaY](https://twitter.com/ZahindaY)
+- LinkedIn: [Yannick MULIKUZA](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -60,13 +32,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Microverse
 
 ## 📝 License
 

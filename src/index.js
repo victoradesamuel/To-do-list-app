@@ -1,20 +1,35 @@
-import _ from 'lodash';
 import './style.css';
-import picture from './image.jpg'
-function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, currently included via a script, is required for this line to work
-    // Lodash now imported by this script
-    element.innerHTML = _.join(['Hello', 'welcome to', 'webpack'], ' ');
 
-    // Add the image to our existing div.
-  const myIcon = new Image();
-  myIcon.src = picture;
+const toDoList = document.querySelector('.todo-list');
+const myTodoTasks = [
+  {
+    Description: 'Learning to code',
+    Completed: false,
+    index: 1,
+  },
+  {
+    Description: 'Learning webpack',
+    Completed: true,
+    index: 2,
+  },
+  {
+    Description: 'Taking weekly quiz',
+    Completed: false,
+    index: 3,
+  },
+  {
+    Description: 'Achieve module one',
+    Completed: true,
+    index: 4,
+  },
+];
 
-  element.appendChild(myIcon);
-  
-    return element;
+const toDoData = () => {
+  for (let task = 0; task < myTodoTasks.length; task += 1) {
+    toDoList.innerHTML += `
+        <li class="task"><span><input type="checkbox" id="checkbox"/></span> &nbsp; &nbsp; ${myTodoTasks[task].Description}<li/>
+        `;
   }
-  
-  document.body.appendChild(component())
+};
+
+toDoData();
