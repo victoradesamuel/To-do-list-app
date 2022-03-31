@@ -1,6 +1,5 @@
-# webpack-template
-Webpack is a module bundler. Its main purpose is to bundle javascript files for usage in a browser.
-This repository is a standard template with full webpack configuration that can be used in any javascript project
+# To-do-list-app
+A to-do list is a app that allow the user to organize the his daily activities.
 
 ## Built With
 
@@ -10,7 +9,7 @@ This repository is a standard template with full webpack configuration that can 
 
 ## Live Demo
 
-[Live Demo Link](https://victoradesamuel.github.io/webpack-template/)
+[Live Demo Link](https://victoradesamuel.github.io/To-do-list-app/)
 
 ## Getting Started
 
@@ -26,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Setup
 
-- git clone https://github.com/victoradesamuel/webpack-template.git
+- git clone https://github.com/victoradesamuel/To-do-list-app.git
 - cd todo-list/
 - Setup webpack configuration to bundle up your javascript modules. Follow the instructions from the [getting started guide](https://webpack.js.org/guides/getting-started/#basic-setup) to set up the basics
 
